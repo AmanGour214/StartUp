@@ -1,0 +1,280 @@
+ /* body{
+    position: relative;
+width: 1728px;
+height: 2399px;
+
+background: #000000;
+
+}
+.navBaground{
+position: absolute;
+width: 1728px;
+height: 86px;
+left: 0px;
+top: 0px;
+
+background: #FCAF02;
+}
+.logo{
+    position: absolute;
+width: 127px;
+height: 39px;
+left: 58px;
+top: 24px;
+}
+.commonStyle{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px; 
+line-height: 39px
+
+}
+
+p,a{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+}
+.homepos{
+position: absolute;
+width: 87px;
+height: 34px;
+left: 1048px;
+top: 26px;
+color :black
+}
+.aboutpos{
+    position: absolute;
+    width: 130px;
+    height: 34px;
+    left: 1185px;
+    top: 26px;
+    color :black
+
+}
+.contactpos{
+
+    position: absolute;
+width: 155px;
+height: 34px;
+left: 1365px;
+top: 26px;
+color :black
+}
+.loginpos{
+
+    position: absolute;
+width: 80px;
+height: 34px;
+left: 1570px;
+top: 26px;
+color :black
+}
+
+.headpos{
+position: absolute;
+width: 736px;
+height: 78px;
+left: 58px;
+top: 174px;
+color: white;
+}
+
+.headStyles{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 78px;
+
+}
+.parapos{
+    position: absolute;
+width: 917px;
+height: 238px;
+left: 63px;
+top: 285px;
+color: white;
+}
+.ima{
+    position: absolute;
+width: 697px;
+height: 482px;
+left: 1678px;
+top: 173px;
+
+/* background: url(./image/IMG-20230422-WA0143.jpg);
+transform: matrix(-1, 0, 0, 1, 0, 0); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;   
+}
+section{
+    background-color: #000;
+}
+/*  Navbar */
+.navbar-section{
+    background-color: #fcaf02;
+    padding: 10px 50px 10px 30px;
+    position: sticky;
+    top: 0;
+}
+.navbar-section nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+div.nav-links{
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+}
+.nav-logo{
+    flex: 1;
+}
+.nav-logo a{
+    font-weight: 600;
+}
+.nav-links ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 18px;   
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+/* Introduction */
+.intro-section{
+    padding-top: 50px;
+    display: flex;
+}
+.intro-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    flex: 1;
+    padding-left: 30px;
+}
+.intro-content h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #fff;
+}
+.intro-content p{
+    text-align: left;
+    font-weight: 300;
+    color: #fff;
+}
+.intro-media{
+    flex: 1;
+    display: flex;
+    float:right;
+    justify-content: center;
+}
+.intro-media img{
+    height: 300px;
+}
+.primary-btn{
+    padding:10px 50px;
+    color: #000;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+    background-color: #fcaf02;
+}
+/* Contact Form */
+.contact-section{
+    padding: 50px 50px 10px 30px;
+}
+.contact-section form{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-heading h2{
+    color: #fcaf02;
+    font-weight: 700;
+}
+.contact-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.contact-form-bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.contact-form-bottom input{
+    width: 45%;
+}
+input{
+    padding: 10px 20px;
+    border: 1px solid #fcaf02;
+    color: #fcaf02;
+    border-radius: 50px;
+    background-color: #000;
+    margin-bottom: 22px;
+    outline: none;
+}
+::placeholder { 
+    color: #fcaf02;
+    opacity: 1; 
+}
+.contact-section button{
+    padding: 10px 20px !important;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/* Table */
+.table-section{
+    padding:50px 50px 50px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+table{
+    width: 100%;
+}
+table,th{
+    border:1px solid #fcaf02;
+    border-collapse: collapse;
+    font-weight: 300;
+    color: #fcaf02;
+}
+td,th{
+    text-align: left;
+    border-right: 1px solid #fcaf02;
+    padding-left: 30px;
+}
+.table-serial-no{
+    text-align: center !important;
+    padding: 12px 12px;
+    width:0;
+}
+tfoot{
+    background-color: #fcaf02;
+    color: #000;
+    font-weight: 500;
+}
+.last-child{
+    padding:12px 30px 28px;
+}
+.first-child{
+    padding: 25px 30px 12px !important;
+}
+
+
